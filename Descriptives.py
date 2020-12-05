@@ -47,7 +47,8 @@ plt.show()
 
 # Histogram - Asking Price (EUR)
 
-plt.hist(data['price_new'], bins=50, normed=False, histtype='stepfilled', alpha=0.7)
+#plt.hist(data['price_new'], bins=50, normed=False, histtype='stepfilled', alpha=0.7)
+plt.hist(data['price_new'], bins=50, histtype='stepfilled', alpha=0.7)
 plt.title('Histogram - Asking price (EUR)')
 plt.show()
 
